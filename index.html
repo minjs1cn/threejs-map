@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>three-map</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            position: relative;
+        }
+        #meta {
+            position: absolute;
+            left: 0;
+            top: 0;
+            padding: 8px;
+            background-color: #fff;
+            color: #000;
+        }
+        #meta li {
+            list-style: none;
+        }
+        #info {
+            position: absolute;
+            background-color: #fff;
+            border-radius: 4px;
+            color: #000;
+            display: none;
+            padding: 4px 6px;
+        }
+    </style>
+</head>
+<body>
+    <ul id="meta">
+        <li>red: x</li>
+        <li>green: y</li>
+        <li>blue: z</li>
+    </ul>
+    <div id="info">china</div>
+    <script type="module" src="./src/main.ts"></script>
+</body>
+</html>
