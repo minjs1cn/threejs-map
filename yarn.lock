@@ -14,6 +14,11 @@
   resolved "https://registry.nlark.com/@types/geojson/download/@types/geojson-7946.0.8.tgz#30744afdb385e2945e22f3b033f897f76b1f12ca"
   integrity sha1-MHRK/bOF4pReIvOwM/iX92sfEso=
 
+"@types/node@^16.3.3":
+  version "16.3.3"
+  resolved "https://registry.nlark.com/@types/node/download/@types/node-16.3.3.tgz#0c30adff37bbbc7a50eb9b58fae2a504d0d88038"
+  integrity sha1-DDCt/ze7vHpQ65tY+uKlBNDYgDg=
+
 "@types/three@^0.130.0":
   version "0.130.0"
   resolved "https://registry.nlark.com/@types/three/download/@types/three-0.130.0.tgz#f048f1fb73e789a2c0dfcc66a45ffcbf259a75f6"
