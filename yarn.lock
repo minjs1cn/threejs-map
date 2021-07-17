@@ -4,88 +4,88 @@
 
 "@types/d3-geo@^3.0.2":
   version "3.0.2"
-  resolved "https://bnpm.byted.org/@types/d3-geo/-/@types/d3-geo-3.0.2.tgz#e7ec5f484c159b2c404c42d260e6d99d99f45d9a"
+  resolved "https://registry.nlark.com/@types/d3-geo/download/@types/d3-geo-3.0.2.tgz#e7ec5f484c159b2c404c42d260e6d99d99f45d9a"
   integrity sha1-5+xfSEwVmyxATELSYObZnZn0XZo=
   dependencies:
     "@types/geojson" "*"
 
 "@types/geojson@*":
   version "7946.0.8"
-  resolved "https://bnpm.byted.org/@types/geojson/-/@types/geojson-7946.0.8.tgz#30744afdb385e2945e22f3b033f897f76b1f12ca"
+  resolved "https://registry.nlark.com/@types/geojson/download/@types/geojson-7946.0.8.tgz#30744afdb385e2945e22f3b033f897f76b1f12ca"
   integrity sha1-MHRK/bOF4pReIvOwM/iX92sfEso=
 
 "@types/three@^0.130.0":
   version "0.130.0"
-  resolved "https://bnpm.byted.org/@types/three/-/@types/three-0.130.0.tgz#f048f1fb73e789a2c0dfcc66a45ffcbf259a75f6"
+  resolved "https://registry.nlark.com/@types/three/download/@types/three-0.130.0.tgz#f048f1fb73e789a2c0dfcc66a45ffcbf259a75f6"
   integrity sha1-8Ejx+3PniaLA38xmpF/8vyWadfY=
 
 colorette@^1.2.2:
   version "1.2.2"
-  resolved "http://bnpm.byted.org/colorette/-/colorette-1.2.2.tgz#cbcc79d5e99caea2dbf10eb3a26fd8b3e6acfa94"
+  resolved "https://registry.npm.taobao.org/colorette/download/colorette-1.2.2.tgz?cache=0&sync_timestamp=1614259623635&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcolorette%2Fdownload%2Fcolorette-1.2.2.tgz#cbcc79d5e99caea2dbf10eb3a26fd8b3e6acfa94"
   integrity sha1-y8x51emcrqLb8Q6zom/Ys+as+pQ=
 
 "d3-array@2.5.0 - 3":
   version "3.0.1"
-  resolved "http://bnpm.byted.org/d3-array/-/d3-array-3.0.1.tgz#ca45c263f5bb780ab5a34a6e1d3d5883fe4a8d14"
-  integrity sha512-l3Bh5o8RSoC3SBm5ix6ogaFW+J6rOUm42yOtZ2sQPCEvCqUMepeX7zgrlLLGIemxgOyo9s2CsWEidnLv5PwwRw==
+  resolved "https://registry.nlark.com/d3-array/download/d3-array-3.0.1.tgz?cache=0&sync_timestamp=1622916901018&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fd3-array%2Fdownload%2Fd3-array-3.0.1.tgz#ca45c263f5bb780ab5a34a6e1d3d5883fe4a8d14"
+  integrity sha1-ykXCY/W7eAq1o0puHT1Yg/5KjRQ=
   dependencies:
     internmap "1 - 2"
 
 d3-geo@^3.0.1:
   version "3.0.1"
-  resolved "http://bnpm.byted.org/d3-geo/-/d3-geo-3.0.1.tgz#4f92362fd8685d93e3b1fae0fd97dc8980b1ed7e"
-  integrity sha512-Wt23xBych5tSy9IYAM1FR2rWIBFWa52B/oF/GYe5zbdHrg08FU8+BuI6X4PvTwPDdqdAdq04fuWJpELtsaEjeA==
+  resolved "https://registry.nlark.com/d3-geo/download/d3-geo-3.0.1.tgz?cache=0&sync_timestamp=1623250051497&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fd3-geo%2Fdownload%2Fd3-geo-3.0.1.tgz#4f92362fd8685d93e3b1fae0fd97dc8980b1ed7e"
+  integrity sha1-T5I2L9hoXZPjsfrg/ZfciYCx7X4=
   dependencies:
     d3-array "2.5.0 - 3"
 
 esbuild@^0.12.8:
   version "0.12.15"
-  resolved "https://bnpm.byted.org/esbuild/-/esbuild-0.12.15.tgz#9d99cf39aeb2188265c5983e983e236829f08af0"
+  resolved "https://registry.nlark.com/esbuild/download/esbuild-0.12.15.tgz?cache=0&sync_timestamp=1625545660518&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fesbuild%2Fdownload%2Fesbuild-0.12.15.tgz#9d99cf39aeb2188265c5983e983e236829f08af0"
   integrity sha1-nZnPOa6yGIJlxZg+mD4jaCnwivA=
 
 fsevents@~2.3.2:
   version "2.3.2"
-  resolved "http://bnpm.byted.org/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
+  resolved "https://registry.nlark.com/fsevents/download/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
   integrity sha1-ilJveLj99GI7cJ4Ll1xSwkwC/Ro=
 
 function-bind@^1.1.1:
   version "1.1.1"
-  resolved "http://bnpm.byted.org/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
+  resolved "https://registry.npm.taobao.org/function-bind/download/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha1-pWiZ0+o8m6uHS7l3O3xe3pL0iV0=
 
 has@^1.0.3:
   version "1.0.3"
-  resolved "http://bnpm.byted.org/has/-/has-1.0.3.tgz#722d7cbfc1f6aa8241f16dd814e011e1f41e8796"
+  resolved "https://registry.npm.taobao.org/has/download/has-1.0.3.tgz#722d7cbfc1f6aa8241f16dd814e011e1f41e8796"
   integrity sha1-ci18v8H2qoJB8W3YFOAR4fQeh5Y=
   dependencies:
     function-bind "^1.1.1"
 
 "internmap@1 - 2":
   version "2.0.1"
-  resolved "http://bnpm.byted.org/internmap/-/internmap-2.0.1.tgz#33d0fa016185397549fb1a14ea3dbe5a2949d1cd"
-  integrity sha512-Ujwccrj9FkGqjbY3iVoxD1VV+KdZZeENx0rphrtzmRXbFvkFO88L80BL/zeSIguX/7T+y8k04xqtgWgS5vxwxw==
+  resolved "https://registry.nlark.com/internmap/download/internmap-2.0.1.tgz#33d0fa016185397549fb1a14ea3dbe5a2949d1cd"
+  integrity sha1-M9D6AWGFOXVJ+xoU6j2+WilJ0c0=
 
 is-core-module@^2.2.0:
   version "2.5.0"
-  resolved "http://bnpm.byted.org/is-core-module/-/is-core-module-2.5.0.tgz#f754843617c70bfd29b7bd87327400cda5c18491"
-  integrity sha512-TXCMSDsEHMEEZ6eCA8rwRDbLu55MRGmrctljsBX/2v1d9/GzqHOxW5c5oPSgrUt2vBFXebu9rGqckXGPWOlYpg==
+  resolved "https://registry.nlark.com/is-core-module/download/is-core-module-2.5.0.tgz#f754843617c70bfd29b7bd87327400cda5c18491"
+  integrity sha1-91SENhfHC/0pt72HMnQAzaXBhJE=
   dependencies:
     has "^1.0.3"
 
 nanoid@^3.1.23:
   version "3.1.23"
-  resolved "http://bnpm.byted.org/nanoid/-/nanoid-3.1.23.tgz#f744086ce7c2bc47ee0a8472574d5c78e4183a81"
-  integrity sha512-FiB0kzdP0FFVGDKlRLEQ1BgDzU87dy5NnzjeW9YZNt+/c3+q82EQDUwniSAUxp/F0gFNI1ZhKU1FqYsMuqZVnw==
+  resolved "https://registry.nlark.com/nanoid/download/nanoid-3.1.23.tgz?cache=0&sync_timestamp=1620673983269&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fnanoid%2Fdownload%2Fnanoid-3.1.23.tgz#f744086ce7c2bc47ee0a8472574d5c78e4183a81"
+  integrity sha1-90QIbOfCvEfuCoRyV01ceOQYOoE=
 
 path-parse@^1.0.6:
   version "1.0.7"
-  resolved "http://bnpm.byted.org/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
-  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
+  resolved "https://registry.nlark.com/path-parse/download/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha1-+8EUtgykKzDZ2vWFjkvWi77bZzU=
 
 postcss@^8.3.5:
   version "8.3.5"
-  resolved "http://bnpm.byted.org/postcss/-/postcss-8.3.5.tgz#982216b113412bc20a86289e91eb994952a5b709"
-  integrity sha512-NxTuJocUhYGsMiMFHDUkmjSKT3EdH4/WbGF6GCi1NDGk+vbcUTun4fpbOqaPtD8IIsztA2ilZm2DhYCuyN58gA==
+  resolved "https://registry.nlark.com/postcss/download/postcss-8.3.5.tgz#982216b113412bc20a86289e91eb994952a5b709"
+  integrity sha1-mCIWsRNBK8IKhiiekeuZSVKltwk=
   dependencies:
     colorette "^1.2.2"
     nanoid "^3.1.23"
@@ -93,7 +93,7 @@ postcss@^8.3.5:
 
 resolve@^1.20.0:
   version "1.20.0"
-  resolved "http://bnpm.byted.org/resolve/-/resolve-1.20.0.tgz#629a013fb3f70755d6f0b7935cc1c2c5378b1975"
+  resolved "https://registry.npm.taobao.org/resolve/download/resolve-1.20.0.tgz#629a013fb3f70755d6f0b7935cc1c2c5378b1975"
   integrity sha1-YpoBP7P3B1XW8LeTXMHCxTeLGXU=
   dependencies:
     is-core-module "^2.2.0"
@@ -101,30 +101,30 @@ resolve@^1.20.0:
 
 rollup@^2.38.5:
   version "2.53.2"
-  resolved "http://bnpm.byted.org/rollup/-/rollup-2.53.2.tgz#3279f9bfba1fe446585560802e418c5fbcaefa51"
-  integrity sha512-1CtEYuS5CRCzFZ7SNW5528SlDlk4VDXIRGwbm/2POQxA/G4+7/crIqJwkmnj8Q/74hGx4oVlNvh4E1CJQ5hZ6w==
+  resolved "https://registry.nlark.com/rollup/download/rollup-2.53.2.tgz#3279f9bfba1fe446585560802e418c5fbcaefa51"
+  integrity sha1-Mnn5v7of5EZYVWCALkGMX7yu+lE=
   optionalDependencies:
     fsevents "~2.3.2"
 
 source-map-js@^0.6.2:
   version "0.6.2"
-  resolved "http://bnpm.byted.org/source-map-js/-/source-map-js-0.6.2.tgz#0bb5de631b41cfbda6cfba8bd05a80efdfd2385e"
+  resolved "https://registry.npm.taobao.org/source-map-js/download/source-map-js-0.6.2.tgz#0bb5de631b41cfbda6cfba8bd05a80efdfd2385e"
   integrity sha1-C7XeYxtBz72mz7qL0FqA79/SOF4=
 
 three@^0.130.1:
   version "0.130.1"
-  resolved "http://bnpm.byted.org/three/-/three-0.130.1.tgz#797588b2877ace31603bbbc864eb2e3022f0b3b4"
-  integrity sha512-OSPPKcGvFSiGkG3jFrwwC76PBV/ZSrGxpBbg28bW8s9GU8r/y2spNGtEXHEb/CVqo0Ctf5Lx2rVaxQZB6OasaA==
+  resolved "https://registry.nlark.com/three/download/three-0.130.1.tgz#797588b2877ace31603bbbc864eb2e3022f0b3b4"
+  integrity sha1-eXWIsod6zjFgO7vIZOsuMCLws7Q=
 
 typescript@^4.3.5:
   version "4.3.5"
-  resolved "http://bnpm.byted.org/typescript/-/typescript-4.3.5.tgz#4d1c37cc16e893973c45a06886b7113234f119f4"
-  integrity sha512-DqQgihaQ9cUrskJo9kIyW/+g0Vxsk8cDtZ52a3NGh0YNTfpUSArXSohyUGnvbPazEPLu398C0UxmKSOrPumUzA==
+  resolved "https://registry.nlark.com/typescript/download/typescript-4.3.5.tgz?cache=0&sync_timestamp=1626506276883&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftypescript%2Fdownload%2Ftypescript-4.3.5.tgz#4d1c37cc16e893973c45a06886b7113234f119f4"
+  integrity sha1-TRw3zBbok5c8RaBohrcRMjTxGfQ=
 
 vite@^2.4.2:
   version "2.4.2"
-  resolved "http://bnpm.byted.org/vite/-/vite-2.4.2.tgz#07d00615775c808530bc9f65641062b349b67929"
-  integrity sha512-2MifxD2I9fjyDmmEzbULOo3kOUoqX90A58cT6mECxoVQlMYFuijZsPQBuA14mqSwvV3ydUsqnq+BRWXyO9Qa+w==
+  resolved "https://registry.nlark.com/vite/download/vite-2.4.2.tgz#07d00615775c808530bc9f65641062b349b67929"
+  integrity sha1-B9AGFXdcgIUwvJ9lZBBis0m2eSk=
   dependencies:
     esbuild "^0.12.8"
     postcss "^8.3.5"
