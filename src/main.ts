@@ -146,8 +146,18 @@ function onMouseMove(event: MouseEvent) {
     info.style.top = event.clientY + 5 + 'px'
 }
 
-window.addEventListener('mousemove', onMouseMove, false)
+function onTouchstart(event: TouchEvent) {
+    const evt = event.touches[0]
+	// 将鼠标位置归一化为设备坐标。x 和 y 方向的取值范围是 (-1 to +1)
+	mouse.x = (evt.clientX / window.innerWidth) * 2 - 1
+	mouse.y = - (evt.clientY / window.innerHeight) * 2 + 1
 
+    info.style.left = evt.clientX + 5 + 'px'
+    info.style.top = evt.clientY + 5 + 'px'
+}
+
+window.addEventListener('mousemove', onMouseMove, false)
+window.addEventListener('touchstart', onTouchstart, false)
 type TMesh = THREE.Mesh<THREE.ExtrudeGeometry, THREE.MeshBasicMaterial[]>
 
 let lastPick: TMesh
