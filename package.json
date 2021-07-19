@@ -1,5 +1,10 @@
 {
-  "name": "three-map",
+  "name": "threejs-map",
+  "description": "three.js渲染3D地图",
+  "keywords": [
+    "three.js",
+    "map"
+  ],
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
