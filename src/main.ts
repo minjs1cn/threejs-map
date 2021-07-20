@@ -1,7 +1,7 @@
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { onTouchstart, onResize } from './utils'
-import { EColors, importMapObject3D } from './object3d'
+import { EColors, importMapObject3D } from './object3D'
 
 async function init() {
     // 创建一个场景
