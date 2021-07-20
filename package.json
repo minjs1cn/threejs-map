@@ -5,6 +5,8 @@
     "three.js",
     "map"
   ],
+  "repository": "git@github.com:minjs1cn/threejs-map.git",
+  "homepage": "https://minjs1cn.github.io/threejs-map/index.html",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -24,3 +26,4 @@
     "three": "^0.130.1"
   }
 }
+
