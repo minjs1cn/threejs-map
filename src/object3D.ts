@@ -11,6 +11,7 @@ export enum EColors {
 export function importMapObject3D(): Promise<THREE.Object3D> {
     return new Promise(resolve => {
         import('./china.json').then(data => {
+            // TODO 为什么要用这个矩阵
             const projection = d3.geoMercator().center([104.0, 37.5]).scale(80).translate([0, 0])
             const mapObject3D = new THREE.Object3D()
         
@@ -23,6 +24,7 @@ export function importMapObject3D(): Promise<THREE.Object3D> {
                 coordinates.forEach(multiPolygon => {
                     multiPolygon.forEach(polygon => {
                         const shape = new THREE.Shape()
+                        // 所有内置的 Geometry 最终都会被转为 BufferGeometry
                         const bufferGeometry = new THREE.BufferGeometry()
         
                         const vertices = []
@@ -41,13 +43,15 @@ export function importMapObject3D(): Promise<THREE.Object3D> {
                                 vertices.push(4)
                             }
                         }
+                        // 设置它的顶点信息
                         bufferGeometry.setAttribute('position', new THREE.BufferAttribute(new Float32Array(vertices), 3))
                         
+                        // 利用连续的闭合线段构建一个几何体
                         const extrudeGeometry = new THREE.ExtrudeGeometry(shape, {
-                            depth: 4, // 可以理解为几何体的厚度
-                            bevelEnabled: false
+                            depth: 4, // 可以理解为几何体的厚度/深度
+                            bevelEnabled: false // 几何体侧面形状的倒角，false代表圆滑
                         })
-        
+                        
                         const mesh = new THREE.Mesh(extrudeGeometry, [
                             new THREE.MeshBasicMaterial({
                                 color: EColors.COLOR1,
@@ -66,6 +70,7 @@ export function importMapObject3D(): Promise<THREE.Object3D> {
                         }))
                         
                         mesh.name = item.properties.name
+                        // 一个省份对象是由两部分构成
                         province.add(mesh)
                         province.add(line)
                     })

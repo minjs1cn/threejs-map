@@ -3,6 +3,8 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { onTouchstart, onResize } from './utils'
 import { EColors, importMapObject3D } from './object3D'
 
+type TMesh = THREE.Mesh<THREE.ExtrudeGeometry, THREE.MeshBasicMaterial[]>
+
 async function init() {
     // 创建一个场景
     const scene = new THREE.Scene()
@@ -47,7 +49,7 @@ async function init() {
 
     const boxGeometry = new THREE.BoxGeometry()
     const material = new THREE.MeshBasicMaterial({
-        color: 0xff0000
+        color: EColors.COLOR3
     })
     const cube = new THREE.Mesh(boxGeometry, material)
     cube.position.y = 30
@@ -74,8 +76,7 @@ async function init() {
     }
     onTouchstart(onMouseMove)
 
-    type TMesh = THREE.Mesh<THREE.ExtrudeGeometry, THREE.MeshBasicMaterial[]>
-
+    // 上次选中的区域
     let lastPick: TMesh
 
     // 渲染
@@ -93,6 +94,7 @@ async function init() {
                 let [m1, m2] = lastPick.material
                 m1.color.set(EColors.COLOR1)
                 m2.color.set(EColors.COLOR2)
+                // 改变材质之后，必须将刷新标识位挂起
                 m1.needsUpdate = true
                 m2.needsUpdate = true
             }
