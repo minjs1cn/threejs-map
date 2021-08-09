@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    position: relative;
+    overflow: hidden;
+}
+#meta {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 8px;
+    background-color: #fff;
+    color: #000;
+}
+#meta li {
+    list-style: none;
+}
+#info {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 4px;
+    color: #000;
+    display: none;
+    padding: 4px 6px;
+}

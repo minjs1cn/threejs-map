@@ -1,4 +1,4 @@
-## three-map
+## threejs-map
 
 从0到1实现一个3d可视化地图
 
