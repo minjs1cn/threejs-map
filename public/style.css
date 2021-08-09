@@ -7,17 +7,7 @@ body {
     position: relative;
     overflow: hidden;
 }
-#meta {
-    position: absolute;
-    left: 0;
-    top: 0;
-    padding: 8px;
-    background-color: #fff;
-    color: #000;
-}
-#meta li {
-    list-style: none;
-}
+
 #info {
     position: absolute;
     background-color: #fff;
